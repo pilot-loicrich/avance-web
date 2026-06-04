@@ -17,14 +17,14 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.15] tracking-tight text-[#1B3A5C] mb-5">
-            Soutien, information<br />
-            et <span className="text-[#E8524A]">accompagnement</span><br />
+            Patients & aidants,<br />
+            <span className="text-[#E8524A]">la vie continue</span><br />
             après un <span className="text-[#4DB8C8]">AVC</span>
           </h1>
 
           <p className="text-[17px] leading-relaxed text-gray-500 mb-9 max-w-[480px]">
             AVanCe accompagne les personnes touchées par un AVC et leurs aidants naturels.
-            Information juste, activités bénéfiques, communauté bienveillante.
+            Créée en mai 2018, notre association propose des activités bénéfiques, des échanges et un soutien de groupe.
           </p>
 
           <div className="flex flex-wrap gap-4">

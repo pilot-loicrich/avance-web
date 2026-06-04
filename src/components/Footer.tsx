@@ -77,9 +77,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/8 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
-          <div className="text-[13px] text-white/35">© 2026 AVanCe — Association loi 1901</div>
-          <div className="text-[12px] text-white/30">
-            Rattaché au <span className="text-[#4DB8C8] font-semibold">Centre Hospitalier d&apos;Auxerre</span>
+          <div className="text-[13px] text-white/35">© 2026 AVanCe — Association loi 1901 · Créée en mai 2018</div>
+          <div className="text-[12px] text-white/30 flex items-center gap-4">
+            <span>📞 06 31 01 02 20</span>
+            <span>✉️ association.avance.2025@gmail.com</span>
           </div>
         </div>
       </div>

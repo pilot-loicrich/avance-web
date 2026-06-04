@@ -5,6 +5,7 @@ import Adhesion from '@/components/sections/Adhesion'
 import Temoignages from '@/components/sections/Temoignages'
 import EspaceMembre from '@/components/sections/EspaceMembre'
 import Agenda from '@/components/sections/Agenda'
+import Bureau from '@/components/sections/Bureau'
 import Contact from '@/components/sections/Contact'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Temoignages />
       <EspaceMembre />
       <Agenda />
+      <Bureau />
       <Contact />
     </main>
   )

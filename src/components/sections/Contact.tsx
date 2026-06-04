@@ -1,13 +1,13 @@
 const infos = [
-  { icon: '📍', label: 'Adresse', value: '2 Boulevard de Verdun\n89000 Auxerre', iconBg: 'bg-[#E8524A]/10' },
-  { icon: '📞', label: 'Téléphone', value: '03.86.48.45.31 / 75159', iconBg: 'bg-[#4DB8C8]/10' },
-  { icon: '✉️', label: 'Email', value: 'jlivet@ch-auxerre.fr', iconBg: 'bg-[#1B3A5C]/08' },
+  { icon: '📍', label: 'Adresse', value: 'Domiciliation au CH d\'Auxerre\nen cours', iconBg: 'bg-[#E8524A]/10' },
+  { icon: '📞', label: 'Téléphone', value: '06 31 01 02 20', iconBg: 'bg-[#4DB8C8]/10' },
+  { icon: '✉️', label: 'Email', value: 'association.avance.2025@gmail.com', iconBg: 'bg-[#1B3A5C]/08' },
 ]
 
 const socials = [
-  { emoji: '📘', label: 'Facebook', href: '#' },
-  { emoji: '📸', label: 'Instagram', href: '#' },
-  { emoji: '🎵', label: 'TikTok', href: '#' },
+  { emoji: '📸', label: 'Instagram', href: 'https://instagram.com/AVanCe' },
+  { emoji: '📘', label: 'Facebook', href: 'https://facebook.com/AVanCe' },
+  { emoji: '🎵', label: 'TikTok', href: 'https://tiktok.com/@AVanCe' },
   { emoji: '▶️', label: 'YouTube', href: '#' },
 ]
 
@@ -24,7 +24,7 @@ export default function Contact() {
               Nos <span className="text-[#E8524A]">coordonnées</span>
             </h2>
             <p className="text-[16px] text-gray-500 leading-relaxed max-w-[420px] mb-10">
-              Une question ? Une demande ? Notre équipe vous répond dans les plus brefs délais.
+              Une question ? Une demande d&apos;adhésion ? Notre équipe vous répond dans les plus brefs délais.
             </p>
 
             <div className="flex flex-col gap-5">
@@ -41,22 +41,38 @@ export default function Contact() {
               ))}
             </div>
 
-            <div className="flex gap-3 mt-8">
-              {socials.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  aria-label={s.label}
-                  className="w-11 h-11 rounded-xl bg-gray-100 flex items-center justify-center text-xl hover:bg-[#1B3A5C] hover:-translate-y-0.5 transition-all"
-                >
-                  {s.emoji}
-                </a>
-              ))}
+            {/* Réseaux sociaux */}
+            <div className="mt-8">
+              <div className="text-[12px] font-semibold text-gray-400 uppercase tracking-wider mb-4">Réseaux sociaux · @AVanCe</div>
+              <div className="flex gap-3">
+                {socials.map((s) => (
+                  <a
+                    key={s.label}
+                    href={s.href}
+                    aria-label={s.label}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-11 h-11 rounded-xl bg-gray-100 flex items-center justify-center text-xl hover:bg-[#1B3A5C] hover:-translate-y-0.5 transition-all"
+                  >
+                    {s.emoji}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* Judith LIVET */}
+            <div className="mt-8 bg-gradient-to-r from-[#4DB8C8]/10 to-[#4DB8C8]/5 rounded-2xl p-5 border border-[#4DB8C8]/20">
+              <div className="text-[12px] font-semibold text-[#34A0B0] uppercase tracking-wider mb-1">Membre fondatrice</div>
+              <div className="text-[15px] font-bold text-[#1B3A5C]">Judith LIVET</div>
+              <div className="text-[13px] text-gray-500 mt-1">Animatrice de filière AVC · CH d&apos;Auxerre</div>
+              <div className="text-[13px] text-gray-400 mt-0.5">jlivet@ch-auxerre.fr</div>
             </div>
           </div>
 
           {/* Formulaire */}
           <div className="bg-gray-50 rounded-3xl p-10">
+            <h3 className="text-[18px] font-bold text-[#1B3A5C] mb-1">Envoyez-nous un message</h3>
+            <p className="text-[14px] text-gray-400 mb-7">Nous vous répondrons dans les 48h.</p>
             <form className="flex flex-col gap-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
@@ -73,8 +89,14 @@ export default function Contact() {
                 <input type="email" placeholder="marie.dupont@email.fr" className="w-full px-4 py-3 rounded-xl border-[1.5px] border-gray-200 text-[14px] focus:outline-none focus:border-[#4DB8C8] transition-colors" />
               </div>
               <div>
-                <label className="block text-[13px] font-semibold text-[#1B3A5C] mb-1.5">Objet</label>
-                <input type="text" placeholder="Question sur les activités..." className="w-full px-4 py-3 rounded-xl border-[1.5px] border-gray-200 text-[14px] focus:outline-none focus:border-[#4DB8C8] transition-colors" />
+                <label className="block text-[13px] font-semibold text-[#1B3A5C] mb-1.5">Je suis…</label>
+                <select className="w-full px-4 py-3 rounded-xl border-[1.5px] border-gray-200 text-[14px] focus:outline-none focus:border-[#4DB8C8] transition-colors bg-white">
+                  <option value="">Choisir...</option>
+                  <option>Patient ayant eu un AVC</option>
+                  <option>Aidant / proche d&apos;un patient AVC</option>
+                  <option>Professionnel de santé</option>
+                  <option>Autre</option>
+                </select>
               </div>
               <div>
                 <label className="block text-[13px] font-semibold text-[#1B3A5C] mb-1.5">Message</label>
