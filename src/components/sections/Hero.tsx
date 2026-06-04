@@ -40,11 +40,6 @@ export default function Hero() {
 
         {/* Carte droite */}
         <div className="hidden lg:flex justify-center items-center relative">
-          {/* Pill flottante haut */}
-          <div className="absolute top-[-16px] right-[-24px] bg-white rounded-full px-5 py-2.5 text-[13px] font-semibold text-[#34A0B0] shadow-[0_8px_24px_rgba(27,58,92,0.12)] flex items-center gap-2 whitespace-nowrap z-10">
-            🧠 Association active depuis 2018
-          </div>
-
           <div className="bg-white rounded-3xl p-9 shadow-[0_20px_60px_rgba(27,58,92,0.12),0_4px_16px_rgba(27,58,92,0.06)] w-full max-w-[420px] relative z-10">
             {/* Header carte */}
             <div className="flex items-center gap-4 pb-5 mb-7 border-b border-gray-100">
@@ -91,7 +86,7 @@ export default function Hero() {
 
           {/* Pill flottante bas */}
           <div className="absolute bottom-[-12px] left-[-16px] bg-white rounded-full px-5 py-2.5 text-[13px] font-semibold text-[#E8524A] shadow-[0_8px_24px_rgba(27,58,92,0.12)] flex items-center gap-2 whitespace-nowrap z-10">
-            ❤️ +28 membres rejoints
+            ❤️ +28 adhérents
           </div>
         </div>
 
