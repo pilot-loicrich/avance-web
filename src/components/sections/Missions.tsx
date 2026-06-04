@@ -80,12 +80,9 @@ export default function Missions() {
             <div>
               <div className="w-[52px] h-[52px] rounded-[14px] bg-white/10 flex items-center justify-center text-2xl mb-5">💬</div>
               <h3 className="text-[16px] font-bold mb-3">Espace conseil</h3>
-              <p className="text-[14px] text-white/75 leading-relaxed">
-                Un espace dédié aux échanges, réflexions et conseils sur des thèmes ciblés en lien avec l&apos;AVC.
-              </p>
             </div>
-            <div className="mt-5 text-[12px] text-white/50 italic">
-              « Une chose précieuse, l&apos;information juste… nous sommes là pour aider »
+            <div className="mt-5 text-[15px] text-white/90 italic font-medium leading-relaxed">
+              &laquo;&nbsp;Une chose précieuse, l&apos;information juste… nous sommes là pour aider&nbsp;&raquo;
             </div>
           </div>
         </div>
