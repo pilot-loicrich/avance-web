@@ -57,7 +57,7 @@ export default function Missions() {
           Pourquoi AVanCe <span className="text-[#E8524A]">existe</span> ?
         </h2>
         <p className="text-[16px] text-gray-500 leading-relaxed max-w-[640px] mb-14">
-          Créée en mai 2018, AVanCe est <strong className="text-[#1B3A5C]">d&apos;abord un accompagnement de groupe</strong> pour toute personne atteinte d&apos;un AVC et ses proches (aidants naturels).
+          La décision de donner vie à AVanCe est partie de la réflexion d&apos;un patient : <em className="text-[#1B3A5C] not-italic">&laquo;&nbsp;Bien que j&apos;ai la chance de ne pas avoir de séquelles, j&apos;ai conscience que quelque chose a changé, je ne suis plus le même, la peur ne me quitte pas… cela peut revenir&nbsp;? Je me pose beaucoup de questions sur l&apos;avenir, mes projets… Je suis allé sur internet et je ne trouve pas toujours des réponses satisfaisantes.&nbsp;&raquo;</em>
         </p>
 
         {/* Missions */}
