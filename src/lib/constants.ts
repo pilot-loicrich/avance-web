@@ -8,7 +8,7 @@ export const COLORS = {
 }
 
 export const NAV_LINKS = [
-  { label: 'Notre mission', href: '#missions' },
+  { label: 'Nos missions', href: '#missions' },
   { label: 'Activités', href: '#activites' },
   { label: 'Agenda', href: '#agenda' },
   { label: 'Actualités', href: '#actualites' },
@@ -51,23 +51,23 @@ export const AGENDA_EVENTS = [
   {
     jour: '10', mois: 'Juin',
     titre: 'Thérapie mélodique',
-    desc: 'Atelier hebdomadaire avec Mme Rousseau, orthophoniste. Salle 12, CH Auxerre.',
+    desc: 'Atelier mensuel animé par M. CORNU Gilles, chef de cœur et bénévole.',
     tag: 'Activité',
     colorDate: 'bg-[#E8524A]/10 text-[#E8524A]',
     colorTag: 'bg-[#E8524A]/10 text-[#E8524A]',
   },
   {
     jour: '15', mois: 'Juin',
-    titre: 'Conf. Nutrition & AVC',
-    desc: 'Dr Martin, neurologue. Impact de l\'alimentation sur la récupération post-AVC.',
-    tag: 'Conférence',
+    titre: 'Atelier Rétro Olfaction',
+    desc: 'Atelier mensuel animé par Mme G. Josiane, présidente de AVanCe.',
+    tag: 'Activité',
     colorDate: 'bg-[#4DB8C8]/10 text-[#34A0B0]',
     colorTag: 'bg-[#4DB8C8]/10 text-[#34A0B0]',
   },
   {
     jour: '22', mois: 'Juin',
-    titre: 'Atelier Cuisine',
-    desc: 'Cuisine adaptée pour stimuler la motricité fine. Inscription requise, places limitées.',
+    titre: 'Atelier Cuisine Adaptée',
+    desc: 'Cuisine adaptée — goût, texture alimentaire et apport hydrique. Places limitées.',
     tag: 'Atelier',
     colorDate: 'bg-[#1B3A5C]/08 text-[#1B3A5C]',
     colorTag: 'bg-[#1B3A5C]/10 text-[#1B3A5C]',

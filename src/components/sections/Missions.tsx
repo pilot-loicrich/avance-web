@@ -26,7 +26,7 @@ export default function Missions() {
   return (
     <section id="missions" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-        <span className="text-[11px] font-bold tracking-widest uppercase text-[#34A0B0]">Notre mission</span>
+        <span className="text-[11px] font-bold tracking-widest uppercase text-[#34A0B0]">Nos missions</span>
         <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-[#1B3A5C] mt-3 mb-4">
           Pourquoi AVanCe <span className="text-[#E8524A]">existe</span> ?
         </h2>
