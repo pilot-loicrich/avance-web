@@ -18,7 +18,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-[17px] leading-relaxed text-gray-500 mb-9 max-w-[480px]">
-            AVanCe accompagne les personnes touchées par un AVC et leurs aidants naturels.
+            AVanCe accompagne les personnes atteintes d&apos;un AVC et leurs aidants naturels.
             Créée en mai 2018, notre association propose des activités bénéfiques, des échanges et un soutien de groupe.
           </p>
 
