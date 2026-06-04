@@ -105,6 +105,9 @@ export default function Footer() {
             <span>✉️ association.avance.2025@gmail.com</span>
           </div>
         </div>
+        <div className="mt-4 text-center text-[11.5px] text-white/20">
+          Site conçu et réalisé par <span className="text-white/40 font-semibold">M. Loïc NANZO TONLIEU</span>
+        </div>
       </div>
     </footer>
   )
