@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#f8fafc] via-[#edf4f7] to-[#e8f3f5] flex items-center pt-[72px] overflow-hidden relative">
+    <section className="min-h-screen bg-gradient-to-br from-[#e0f7fa] via-[#b2ebf2] to-[#e0f4f7] flex items-center pt-[72px] overflow-hidden relative">
       {/* Blobs décoratifs */}
       <div className="absolute top-[-120px] right-[-120px] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(77,184,200,0.12)_0%,transparent_70%)] pointer-events-none" />
       <div className="absolute bottom-[-80px] left-[-80px] w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(232,82,74,0.08)_0%,transparent_70%)] pointer-events-none" />
@@ -11,11 +11,6 @@ export default function Hero() {
 
         {/* Texte gauche */}
         <div>
-          <div className="inline-flex items-center gap-2 bg-[#4DB8C8]/10 text-[#34A0B0] border border-[#4DB8C8]/30 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#4DB8C8] animate-pulse" />
-            Association AVC · Sis à Auxerre
-          </div>
-
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.15] tracking-tight text-[#1B3A5C] mb-5">
             Patients & aidants,<br />
             <span className="text-[#E8524A]">la vie continue</span><br />
