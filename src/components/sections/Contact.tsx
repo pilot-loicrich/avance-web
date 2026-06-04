@@ -6,7 +6,7 @@ const infos = [
 
 const socials = [
   { emoji: '📸', label: 'Instagram', href: 'https://instagram.com/AVanCe' },
-  { emoji: '📘', label: 'Facebook', href: 'https://facebook.com/AVanCe' },
+  { emoji: '📘', label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr' },
   { emoji: '🎵', label: 'TikTok', href: 'https://tiktok.com/@AVanCe' },
   { emoji: '▶️', label: 'YouTube', href: '#' },
 ]
