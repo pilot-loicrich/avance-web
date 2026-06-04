@@ -51,7 +51,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="#adhesion"
+            href="/adhesion"
             className="ml-2 bg-[#E8524A] hover:bg-[#C93E37] text-white text-[13.5px] font-semibold px-5 py-2 rounded-lg shadow-[0_2px_8px_rgba(232,82,74,0.35)] hover:shadow-[0_4px_16px_rgba(232,82,74,0.45)] hover:-translate-y-0.5 transition-all"
           >
             Adhérer →
@@ -81,7 +81,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="#adhesion"
+            href="/adhesion"
             onClick={() => setMenuOpen(false)}
             className="mt-2 bg-[#E8524A] text-white text-[14px] font-semibold px-4 py-3 rounded-lg text-center"
           >
