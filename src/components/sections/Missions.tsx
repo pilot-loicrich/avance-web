@@ -2,7 +2,7 @@ const missions = [
   {
     icon: '🤝',
     titre: 'Contact social',
-    texte: 'Maintenir un contact social entre patients et aidants naturels. Ne jamais traverser cette épreuve seul.',
+    texte: 'L\'isolement social et la perte de sollicitude sont parfois observés…. AVanCe offre une plateforme post AVC.',
     borderColor: 'border-t-[#E8524A]',
     iconBg: 'bg-[#E8524A]/10',
   },
