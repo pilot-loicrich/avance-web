@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
+
 const infos = [
   { icon: '📍', label: 'Adresse', value: 'Domiciliation au CH d\'Auxerre\nen cours', iconBg: 'bg-[#E8524A]/10' },
   { icon: '📞', label: 'Téléphone', value: '06 31 01 02 20', iconBg: 'bg-[#4DB8C8]/10' },
@@ -5,10 +7,10 @@ const infos = [
 ]
 
 const socials = [
-  { emoji: '📸', label: 'Instagram', href: 'https://instagram.com/AVanCe' },
-  { emoji: '📘', label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr' },
-  { emoji: '🎵', label: 'TikTok', href: 'https://tiktok.com/@AVanCe' },
-  { emoji: '▶️', label: 'YouTube', href: '#' },
+  { icon: FaFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr', color: 'hover:bg-[#1877F2]' },
+  { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/AVanCe', color: 'hover:bg-gradient-to-br hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]' },
+  { icon: FaTiktok, label: 'TikTok', href: 'https://tiktok.com/@AVanCe', color: 'hover:bg-black' },
+  { icon: FaYoutube, label: 'YouTube', href: '#', color: 'hover:bg-[#FF0000]' },
 ]
 
 export default function Contact() {
@@ -52,9 +54,9 @@ export default function Contact() {
                     aria-label={s.label}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-11 h-11 rounded-xl bg-gray-100 flex items-center justify-center text-xl hover:bg-[#1B3A5C] hover:-translate-y-0.5 transition-all"
+                    className={`w-11 h-11 rounded-xl bg-gray-100 flex items-center justify-center text-[#1B3A5C] ${s.color} hover:text-white hover:-translate-y-0.5 transition-all duration-200`}
                   >
-                    {s.emoji}
+                    <s.icon size={20} />
                   </a>
                 ))}
               </div>

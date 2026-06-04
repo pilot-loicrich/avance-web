@@ -1,4 +1,12 @@
 import Link from 'next/link'
+import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
+
+const footerSocials = [
+  { icon: FaFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr' },
+  { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/AVanCe' },
+  { icon: FaTiktok, label: 'TikTok', href: 'https://tiktok.com/@AVanCe' },
+  { icon: FaYoutube, label: 'YouTube', href: '#' },
+]
 
 const cols = [
   {
@@ -57,6 +65,20 @@ export default function Footer() {
             <p className="text-[13.5px] text-white/50 leading-relaxed max-w-[280px]">
               &laquo; Une chose précieuse, l&apos;information juste… nous sommes là pour aider &raquo;
             </p>
+            <div className="flex gap-2 mt-5">
+              {footerSocials.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  aria-label={s.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center text-white/60 hover:bg-white/20 hover:text-white hover:-translate-y-0.5 transition-all duration-200"
+                >
+                  <s.icon size={17} />
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Colonnes */}
