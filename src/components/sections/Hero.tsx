@@ -13,7 +13,7 @@ export default function Hero() {
         <div>
           <div className="inline-flex items-center gap-2 bg-[#4DB8C8]/10 text-[#34A0B0] border border-[#4DB8C8]/30 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
             <span className="w-2 h-2 rounded-full bg-[#4DB8C8] animate-pulse" />
-            Réseau AVC · CH d&apos;Auxerre
+            Association AVC · Sis à Auxerre
           </div>
 
           <h1 className="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.15] tracking-tight text-[#1B3A5C] mb-5">
@@ -47,7 +47,7 @@ export default function Hero() {
         <div className="hidden lg:flex justify-center items-center relative">
           {/* Pill flottante haut */}
           <div className="absolute top-[-16px] right-[-24px] bg-white rounded-full px-5 py-2.5 text-[13px] font-semibold text-[#34A0B0] shadow-[0_8px_24px_rgba(27,58,92,0.12)] flex items-center gap-2 whitespace-nowrap z-10">
-            🏥 Réseau neurologique certifié
+            🧠 Association active depuis 2018
           </div>
 
           <div className="bg-white rounded-3xl p-9 shadow-[0_20px_60px_rgba(27,58,92,0.12),0_4px_16px_rgba(27,58,92,0.06)] w-full max-w-[420px] relative z-10">
@@ -58,7 +58,7 @@ export default function Hero() {
               </div>
               <div>
                 <div className="text-[18px] font-bold text-[#1B3A5C]">AVanCe en chiffres</div>
-                <div className="text-[13px] text-gray-400 mt-0.5">Réseau actif depuis 2021</div>
+                <div className="text-[13px] text-gray-400 mt-0.5">Association active depuis 2018</div>
               </div>
             </div>
 
@@ -66,7 +66,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 gap-3.5 mb-5">
               {[
                 { val: '28', label: 'Membres actifs', color: 'text-[#E8524A]' },
-                { val: '5', label: 'Activités / mois', color: 'text-[#34A0B0]' },
+                { val: '1', label: 'Activité / mois', color: 'text-[#34A0B0]' },
                 { val: '15€', label: 'Adhésion annuelle', color: 'text-[#E8524A]' },
                 { val: '100%', label: 'Bénévolat', color: 'text-[#34A0B0]' },
               ].map((s) => (
@@ -78,14 +78,17 @@ export default function Hero() {
             </div>
 
             {/* Activités */}
-            <div className="flex flex-col gap-2.5">
+            <div className="flex flex-col gap-2">
               {[
                 { emoji: '🎵', label: 'Thérapie mélodique' },
-                { emoji: '🚶', label: 'Marche en groupe' },
+                { emoji: '👃', label: 'Atelier rétro olfaction' },
+                { emoji: '🚶', label: 'Activité marche en groupe' },
                 { emoji: '💃', label: 'Danse adaptée' },
+                { emoji: '🍽️', label: 'Cuisine adaptée' },
+                { emoji: '✨', label: '… et bien d\'autres !' },
               ].map((a) => (
-                <div key={a.label} className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-2.5 text-[13.5px] font-medium text-[#1B3A5C]">
-                  <span className="text-[18px]">{a.emoji}</span> {a.label}
+                <div key={a.label} className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-2 text-[13px] font-medium text-[#1B3A5C]">
+                  <span className="text-[16px]">{a.emoji}</span> {a.label}
                 </div>
               ))}
             </div>

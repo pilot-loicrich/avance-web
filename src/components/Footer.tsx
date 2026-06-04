@@ -45,13 +45,13 @@ export default function Footer() {
               <div className="flex flex-col leading-tight">
                 <div className="text-xl font-extrabold tracking-tight">
                   <span className="text-[#E8524A]">A</span>
-                  <span className="text-white/80">V</span>
-                  <span className="text-[#4DB8C8]">a</span>
-                  <span className="text-white/80">n</span>
+                  <span className="text-[#4DB8C8]">V</span>
+                  <span className="text-[#E8524A]">a</span>
+                  <span className="text-[#4DB8C8]">n</span>
                   <span className="text-[#E8524A]">C</span>
                   <span className="text-[#4DB8C8]">e</span>
                 </div>
-                <div className="text-[10px] text-white/40 tracking-wide">Réseau AVC – CH d&apos;Auxerre</div>
+                <div className="text-[10px] text-white/40 tracking-wide">Sis à Auxerre</div>
               </div>
             </div>
             <p className="text-[13.5px] text-white/50 leading-relaxed max-w-[280px]">

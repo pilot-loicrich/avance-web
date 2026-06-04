@@ -29,13 +29,13 @@ export default function Navbar() {
           <div className="flex flex-col leading-tight">
             <div className="text-xl font-extrabold tracking-tight">
               <span className="text-[#E8524A]">A</span>
-              <span className="text-[#1B3A5C]">V</span>
-              <span className="text-[#4DB8C8]">a</span>
-              <span className="text-[#1B3A5C]">n</span>
+              <span className="text-[#4DB8C8]">V</span>
+              <span className="text-[#E8524A]">a</span>
+              <span className="text-[#4DB8C8]">n</span>
               <span className="text-[#E8524A]">C</span>
               <span className="text-[#4DB8C8]">e</span>
             </div>
-            <div className="text-[10px] text-gray-400 font-normal tracking-wide">Réseau AVC – CH d&apos;Auxerre</div>
+            <div className="text-[10px] text-gray-400 font-normal tracking-wide">Sis à Auxerre</div>
           </div>
         </Link>
 

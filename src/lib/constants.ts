@@ -16,11 +16,11 @@ export const NAV_LINKS = [
 ]
 
 export const ACTIVITES = [
-  { emoji: '🎵', nom: 'Thérapie Mélodique', freq: 'Chaque mardi', color: 'from-[#4DB8C8] to-[#34A0B0]' },
-  { emoji: '👃', nom: 'Rétro Olfaction', freq: '2× / mois', color: 'from-[#E8524A] to-[#C93E37]' },
-  { emoji: '🚶', nom: 'Marche', freq: 'Chaque jeudi', color: 'from-[#1B3A5C] to-[#2A5280]' },
-  { emoji: '💃', nom: 'Danse', freq: 'Chaque vendredi', color: 'from-[#6B8FBF] to-[#4A6FA5]' },
-  { emoji: '🍽️', nom: 'Cuisine', freq: '1× / mois', color: 'from-[#F0776F] to-[#D95E56]' },
+  { emoji: '🎵', nom: 'Thérapie Mélodique', freq: 'Mensuelle', color: 'from-[#4DB8C8] to-[#34A0B0]' },
+  { emoji: '👃', nom: 'Atelier Rétro Olfaction', freq: 'Mensuelle', color: 'from-[#E8524A] to-[#C93E37]' },
+  { emoji: '🚶', nom: 'Marche en Groupe', freq: 'Mensuelle', color: 'from-[#1B3A5C] to-[#2A5280]' },
+  { emoji: '💃', nom: 'Danse Adaptée', freq: 'Mensuelle', color: 'from-[#6B8FBF] to-[#4A6FA5]' },
+  { emoji: '🍽️', nom: 'Cuisine Adaptée', freq: 'Goût, texture & hydrique', color: 'from-[#F0776F] to-[#D95E56]' },
 ]
 
 export const TEMOIGNAGES = [

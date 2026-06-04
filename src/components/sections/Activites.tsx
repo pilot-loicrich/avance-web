@@ -4,12 +4,11 @@ export default function Activites() {
   return (
     <section id="activites" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <span className="text-[11px] font-bold tracking-widest uppercase text-[#34A0B0]">Activités mensuelles</span>
         <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-[#1B3A5C] mt-3 mb-4">
-          Des activités <span className="text-[#E8524A]">bénéfiques</span> pour le cerveau
+          Nos activités <span className="text-[#E8524A]">bénéfiques</span> pour le cerveau 🧠
         </h2>
         <p className="text-[16px] text-gray-500 leading-relaxed max-w-[580px] mb-14">
-          Chaque mois, AVanCe propose des ateliers thérapeutiques encadrés, gratuits pour tous les membres.
+          Chaque mois, AVanCe propose des ateliers thérapeutiques encadrés, gratuits pour tous les adhérents et donateurs.
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">

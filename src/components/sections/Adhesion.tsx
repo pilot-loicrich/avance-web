@@ -18,7 +18,7 @@ const formules = [
     unite: '/an',
     sousTitre: 'Accès complet à l\'espace membre',
     desc: 'Devenez membre actif d\'AVanCe et accédez à toutes les ressources.',
-    features: ['Espace membre privé', 'Toutes les activités gratuites', 'Invitations conférences', 'Newsletter & actualités', 'Agenda en avant-première'],
+    features: ['Espace membre privé', 'Toutes les activités gratuites', 'Séances de brainstorming sur des thèmes ciblés avec l\'apport de divers intervenants professionnels de la santé', 'Newsletter & actualités', 'Agenda en avant-première'],
     featured: true,
     badge: '⭐ Le plus populaire',
     btnLabel: 'Adhérer maintenant →',
