@@ -8,7 +8,7 @@ const infos = [
 
 const socials = [
   { icon: FaFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr', color: 'hover:bg-[#1877F2]' },
-  { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/AVanCe', color: 'hover:bg-gradient-to-br hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]' },
+  { icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/avance_by_jl?utm_source=qr', color: 'hover:bg-gradient-to-br hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]' },
   { icon: FaTiktok, label: 'TikTok', href: 'https://tiktok.com/@AVanCe', color: 'hover:bg-black' },
   { icon: FaYoutube, label: 'YouTube', href: '#', color: 'hover:bg-[#FF0000]' },
 ]

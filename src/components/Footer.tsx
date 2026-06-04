@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa'
 
 const footerSocials = [
   { icon: FaFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1EnMSdgvGz/?mibextid=wwXIfr' },
-  { icon: FaInstagram, label: 'Instagram', href: 'https://instagram.com/AVanCe' },
+  { icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/avance_by_jl?utm_source=qr' },
   { icon: FaTiktok, label: 'TikTok', href: 'https://tiktok.com/@AVanCe' },
   { icon: FaYoutube, label: 'YouTube', href: '#' },
 ]
