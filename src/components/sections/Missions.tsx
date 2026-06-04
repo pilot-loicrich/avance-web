@@ -16,7 +16,7 @@ const missions = [
   {
     icon: '🏥',
     titre: 'Plateforme de santé',
-    texte: 'Offrir une plateforme avec des interventions de divers professionnels de la santé impliqués dans la filière AVC.',
+    texte: 'Organiser des séances de brainstorming avec des intervenants variés (divers professionnels de la santé) impliqués dans la filière AVC.',
     borderColor: 'border-t-[#1B3A5C]',
     iconBg: 'bg-[#1B3A5C]/08',
   },
