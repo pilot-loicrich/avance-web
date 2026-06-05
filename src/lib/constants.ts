@@ -12,7 +12,7 @@ export const NAV_LINKS = [
   { label: 'Activités', href: '#activites' },
   { label: 'Agenda', href: '#agenda' },
   { label: 'Actualités', href: '#actualites' },
-  { label: 'Vidéos AVC', href: '#videos' },
+  { label: 'Vidéo', href: '#videos' },
   { label: 'Contact', href: '#contact' },
 ]
 

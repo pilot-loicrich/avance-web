@@ -39,10 +39,11 @@ export default function Bureau() {
         <div className="bg-gradient-to-r from-[#1B3A5C] to-[#2A5280] rounded-3xl p-8 mb-10 flex flex-col md:flex-row items-center gap-8">
           <div className="relative w-36 h-36 flex-shrink-0">
             <div className="w-36 h-36 rounded-2xl overflow-hidden border-4 border-white/20 shadow-xl">
-              {/* Remplacer par <Image> quand judith.jpg est dans /public */}
-              <div className="w-full h-full bg-gradient-to-br from-[#4DB8C8] to-[#E8524A] flex items-center justify-center text-5xl">
-                👩‍⚕️
-              </div>
+              <img
+                src="/judith.jpg"
+                alt="Judith LIVET — Animatrice de filière AVC, membre fondatrice d'AVanCe"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
           <div className="text-center md:text-left">
