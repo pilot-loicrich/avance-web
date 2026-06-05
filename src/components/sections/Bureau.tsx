@@ -1,3 +1,4 @@
+
 const bureau = [
   { role: 'Présidente', nom: 'Mme GARRAUT Josiane', color: 'bg-[#E8524A]' },
   { role: 'Vice-présidente', nom: 'Mme YOUBI Fouzia', color: 'bg-[#4DB8C8]' },
@@ -33,6 +34,27 @@ export default function Bureau() {
         <p className="text-[16px] text-gray-500 leading-relaxed max-w-[580px] mb-14">
           AVanCe est portée par une équipe de bénévoles passionnés, patients, soignants et proches.
         </p>
+
+        {/* Carte Judith — membre fondatrice */}
+        <div className="bg-gradient-to-r from-[#1B3A5C] to-[#2A5280] rounded-3xl p-8 mb-10 flex flex-col md:flex-row items-center gap-8">
+          <div className="relative w-36 h-36 flex-shrink-0">
+            <div className="w-36 h-36 rounded-2xl overflow-hidden border-4 border-white/20 shadow-xl">
+              {/* Remplacer par <Image> quand judith.jpg est dans /public */}
+              <div className="w-full h-full bg-gradient-to-br from-[#4DB8C8] to-[#E8524A] flex items-center justify-center text-5xl">
+                👩‍⚕️
+              </div>
+            </div>
+          </div>
+          <div className="text-center md:text-left">
+            <div className="text-[#4DB8C8] text-xs font-bold uppercase tracking-widest mb-1">Membre fondatrice</div>
+            <h3 className="text-2xl font-extrabold text-white mb-1">Judith LIVET</h3>
+            <div className="text-white/70 text-[14px] mb-1">Animatrice de filière AVC</div>
+            <div className="text-white/50 text-[13px]">Centre Hospitalier d&apos;Auxerre</div>
+            <div className="mt-4 inline-flex items-center gap-2 bg-white/10 text-white/80 text-[12px] font-medium px-4 py-2 rounded-full">
+              🏥 Infirmière · Animatrice de filière AVC · Membre fondatrice d&apos;AVanCe
+            </div>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
