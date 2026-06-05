@@ -50,7 +50,7 @@ export default function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src="/logo-name.png" alt="AVanCe" className="h-10 w-auto" />
             </div>
-            <p className="text-[14px] text-white/85 italic leading-relaxed max-w-[280px]">
+            <p className="text-[13.5px] text-white/50 leading-relaxed max-w-[280px]">
               &laquo; Une chose précieuse, l&apos;information juste… nous sommes là pour aider &raquo;
             </p>
             <div className="flex gap-2 mt-5">
