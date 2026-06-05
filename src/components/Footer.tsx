@@ -46,10 +46,8 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="inline-flex bg-white rounded-2xl px-4 py-3 mb-4">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo-avance.png" alt="AVanCe" className="h-11 w-auto" />
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo-avance-white.png" alt="AVanCe" className="h-14 w-auto mb-4" />
             <p className="text-[13.5px] text-white/50 leading-relaxed max-w-[280px]">
               &laquo; Une chose précieuse, l&apos;information juste… nous sommes là pour aider &raquo;
             </p>
