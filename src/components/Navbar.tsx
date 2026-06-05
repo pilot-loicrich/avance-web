@@ -25,9 +25,9 @@ export default function Navbar() {
         <Link href="/" className="flex items-center no-underline">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo-avance.png"
+            src="/logo-name.png"
             alt="AVanCe — Une chose précieuse, l'information juste"
-            className="h-12 w-auto"
+            className="h-10 w-auto"
           />
         </Link>
 
