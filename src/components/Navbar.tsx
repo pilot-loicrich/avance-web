@@ -22,21 +22,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-[72px]">
 
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 no-underline">
-          <div className="w-11 h-11 rounded-[14px] bg-gradient-to-br from-[#E8524A] to-[#4DB8C8] flex items-center justify-center text-xl shadow-[0_4px_12px_rgba(232,82,74,0.3)]">
-            🧠
-          </div>
-          <div className="flex flex-col leading-tight">
-            <div className="text-xl font-extrabold tracking-tight">
-              <span className="text-[#E8524A]">A</span>
-              <span className="text-[#E8524A]">V</span>
-              <span className="text-[#4DB8C8]">a</span>
-              <span className="text-[#4DB8C8]">n</span>
-              <span className="text-[#E8524A]">C</span>
-              <span className="text-[#4DB8C8]">e</span>
-            </div>
-            <div className="text-[10px] text-gray-400 font-normal tracking-wide">Sis à Auxerre</div>
-          </div>
+        <Link href="/" className="flex items-center no-underline">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo-avance.png"
+            alt="AVanCe — Une chose précieuse, l'information juste"
+            className="h-12 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}

@@ -43,8 +43,9 @@ export default function Hero() {
           <div className="bg-white rounded-3xl p-9 shadow-[0_20px_60px_rgba(27,58,92,0.12),0_4px_16px_rgba(27,58,92,0.06)] w-full max-w-[420px] relative z-10">
             {/* Header carte */}
             <div className="flex items-center gap-4 pb-5 mb-7 border-b border-gray-100">
-              <div className="w-16 h-16 rounded-[18px] bg-gradient-to-br from-[#4DB8C8] to-[#E8524A] flex items-center justify-center text-3xl shadow-[0_6px_20px_rgba(77,184,200,0.4)]">
-                🧠
+              <div className="w-16 h-16 rounded-[18px] bg-gray-50 flex items-center justify-center shadow-sm p-2">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo-icon.png" alt="AVanCe" className="w-full h-full object-contain" />
               </div>
               <div>
                 <div className="text-[18px] font-bold text-[#1B3A5C]">AVanCe en chiffres</div>

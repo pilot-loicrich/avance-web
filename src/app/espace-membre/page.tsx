@@ -22,8 +22,9 @@ export default async function EspaceMembrePage() {
             <p className="text-white/60 text-sm">{user.email}</p>
           </div>
           <div className="flex flex-col items-end gap-3">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#E8524A] to-[#4DB8C8] flex items-center justify-center text-2xl">
-              🧠
+            <div className="w-14 h-14 rounded-2xl bg-white flex items-center justify-center p-1.5">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo-icon.png" alt="AVanCe" className="w-full h-full object-contain" />
             </div>
             <LogoutButton />
           </div>

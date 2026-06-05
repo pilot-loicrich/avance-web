@@ -63,15 +63,9 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
 
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#E8524A] to-[#4DB8C8] flex items-center justify-center text-3xl mx-auto mb-4 shadow-[0_8px_24px_rgba(232,82,74,0.3)]">
-            🧠
-          </div>
-          <div className="text-2xl font-extrabold text-[#1B3A5C]">
-            <span className="text-[#E8524A]">A</span><span>V</span>
-            <span className="text-[#4DB8C8]">a</span><span>n</span>
-            <span className="text-[#E8524A]">C</span><span className="text-[#4DB8C8]">e</span>
-          </div>
-          <p className="text-gray-400 text-sm mt-1">Créer mon compte membre</p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-avance.png" alt="AVanCe" className="h-14 w-auto mx-auto mb-3" />
+          <p className="text-gray-400 text-sm">Créer mon compte membre</p>
         </div>
 
         <div className="bg-white rounded-3xl p-8 shadow-[0_4px_32px_rgba(27,58,92,0.08)]">

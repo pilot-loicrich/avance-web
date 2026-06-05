@@ -46,21 +46,9 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-11 h-11 rounded-[14px] bg-gradient-to-br from-[#E8524A] to-[#4DB8C8] flex items-center justify-center text-xl">
-                🧠
-              </div>
-              <div className="flex flex-col leading-tight">
-                <div className="text-xl font-extrabold tracking-tight">
-                  <span className="text-[#E8524A]">A</span>
-                  <span className="text-[#E8524A]">V</span>
-                  <span className="text-[#4DB8C8]">a</span>
-                  <span className="text-[#4DB8C8]">n</span>
-                  <span className="text-[#E8524A]">C</span>
-                  <span className="text-[#4DB8C8]">e</span>
-                </div>
-                <div className="text-[10px] text-white/40 tracking-wide">Sis à Auxerre</div>
-              </div>
+            <div className="inline-flex bg-white rounded-2xl px-4 py-3 mb-4">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo-avance.png" alt="AVanCe" className="h-11 w-auto" />
             </div>
             <p className="text-[13.5px] text-white/50 leading-relaxed max-w-[280px]">
               &laquo; Une chose précieuse, l&apos;information juste… nous sommes là pour aider &raquo;
